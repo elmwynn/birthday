@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #130813;
+    margin:auto;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin:auto;
+}
+
+
+
+a:hover{
+    color:white;
+    font-weight: 200;
+}
+
+
+#one{
+    background-color: rgb(102, 102, 246);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    font-weight: bold;
+    height: 300px;
+}
+
+#two{
+    background-color: rgb(185, 110, 255);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-weight: bold;
+    color:beige;
+    height: 300px;
+}
+
+#three{
+    background-color: rgb(45, 174, 181);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    font-weight: bold;
+    height: 300px;
+}
+
+#four{
+    background-color: goldenrod;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#five{
+    background-color: green;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#six{
+    background-color: rgb(193, 191, 191);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color: black;
+    height: 300px;
+}
+
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+@media (min-width:400px){
+   #specialButton{
+     display:contents;
+    }
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+   
+}
+@media (min-width:750px){
+    #specialButton{
+        display: none;
+    }
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;  
+
+    }
+    .holder{
+        background-color: #242527;
+        margin-top: 20%;
+        height: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    } 
+}
